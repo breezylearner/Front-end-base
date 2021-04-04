@@ -8,5 +8,5 @@
   - 2.timer 具体是使用 setTimeout，执行是指向当前调用的函数，并使用里面的实参，然后回复初始值。
   - 3.setTimeout(执行内容，等待时间)
 
-* [深拷贝函数](\src\deep_copy.js)
+* [深拷贝函数](/src/deep_copy.js)
   > 思路：利用 JS 原型的原理
