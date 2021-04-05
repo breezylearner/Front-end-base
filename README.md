@@ -33,10 +33,17 @@
 
     参考：[js 实现call和apply方法，超详细思路分析](https://www.cnblogs.com/echolun/p/12144344.html)
 
-- 改变 this 指向：
-- 传参：
+#### 步骤：
 
-* 特别：判断是否为有效对象
+- 改变 this 指向
+- 传参
+
+* 特别：判断是否为有效对象：如果是能原型中能找到的就直接用，不是就在全局搜索
+
+```
+  obj = obj ? Object(obj) : window;
+
+```
 
 # CSS3 篇
 
