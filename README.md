@@ -13,15 +13,10 @@
 -     timer 具体是使用 setTimeout，执行是指向当前调用的函数，并使用里面的实参，然后回复初始值。
 -     setTimeout(执行内容，等待时间)
 
-## [节流函数](/src/throttle.js)
+## 节流函数
+* [代码](/src/basic_function/throttle/throttle_code.js)
+* [解说](src/basic_function/throttle/throttle_code.js)
 
-> 保持特定频率连续触发，防止变化频繁。就像是给水管装上了节流器。
-
-和防抖函数最大不同：添加防抖功能的函数,只有特意点击的时候才会执行(如:提交表单);添加节流功能的函数,是在设置专门事件,也会触发的情况(如:动态获取拖拽位置、获取滚动条位置)
-
-- 定时器方案：使用 setTimeout 进行节流
-
-* 时间戳方案：
 
 ## [深拷贝函数](/src/deep_copy.js)
 
@@ -44,6 +39,10 @@
   obj = obj ? Object(obj) : window;
 
 ```
+## [promise 实现红绿灯](/src/basic_function/promise_traffic_signal.js)
+> promise 的本质是 ES6 的语法糖，状态一旦转变，就绝不会改变
+* 根据promise的使用方法，将 setTimeout 用来设置延时，使用resolve状态，启动显示颜色的函数，达到“红绿灯”效果
+*  [完整效果显示](https://codepen.io/breezylearner/pen/vYgWgEq)
 
 # CSS3 篇
 
@@ -58,50 +57,9 @@
 利用 margin，留出右边自适应部分。
 
 # 前端常用 Linux 命令
+[以上传测试环境为例](/src/Linux/lunix_usually.md)
 
-### 以上传测试环境为例
+# 计算机网络
 
-> 上传测试环境的过程是：cd 进入上传目录 → (选)mv 命名文件 → 解压上传文件 → （选）重启
+### [客户端禁用cookie，session是否还能用？](src/knowledge/cookie_session.md)
 
-- 查看当前目录
-
-```
-ll
-```
-
-- 进入当前目录
-
-```
-cd
-```
-
-- 上传文件
-
-```
-rz   (按回车进行文件选择)
-```
-
-- 文件移动（重命名）
-
-```
-mv 文件名 移动（更改）文件名
-```
-
-- 解压
-
-```
-unzip zip压缩包
-```
-
-- 删除
-
-```
-rm 压缩包名
-rm -rf 文件明
-```
-
-- 启动
-
-```
-sh run.sh (可能有不同命名)
-```
