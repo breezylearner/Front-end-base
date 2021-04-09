@@ -2,7 +2,7 @@
 
 前端学习笔记
 
-# JavaScript 篇
+# 功能篇
 
 ## [防抖函数](/src/Debouncing.js)
 
@@ -43,8 +43,11 @@
 > promise 的本质是 ES6 的语法糖，状态一旦转变，就绝不会改变
 * 根据promise的使用方法，将 setTimeout 用来设置延时，使用resolve状态，启动显示颜色的函数，达到“红绿灯”效果
 *  [完整效果显示](https://codepen.io/breezylearner/pen/vYgWgEq)
+  
+## 图片懒加载 
 
-# CSS3 篇
+
+# 样式篇
 
 ## [三栏布局](https://codepen.io/breezylearner/pen/ZELpNXG)
 
