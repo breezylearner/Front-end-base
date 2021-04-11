@@ -11,7 +11,7 @@
 
 * 执行条件：offsetTop-scroolTop<clientHeight
   
-  ```
+ ```
   <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -81,11 +81,12 @@
 > 使用组件react-lazyload们直接完成加载
 
 * 安装react模块
-  ```
+```
 yarn add react-lazyload
-  ```
+```
 
 * 使用组件
+
 ```
 import LazyLoad from 'react-lazyload';
 ...
