@@ -44,8 +44,9 @@
 * 根据promise的使用方法，将 setTimeout 用来设置延时，使用resolve状态，启动显示颜色的函数，达到“红绿灯”效果
 *  [完整效果显示](https://codepen.io/breezylearner/pen/vYgWgEq)
   
-## 图片懒加载 
-
+## [图片懒加载](/src/basic_function/picture_lazyload/picture_lazyload_explain.md)
+> 图片不一次性加载完，而是滚动到视窗时加载。pnterest使用图片加载方式
+> * 好处：减少资源浪费，当图片数目非常多时
 
 # 样式篇
 
