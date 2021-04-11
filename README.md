@@ -60,6 +60,10 @@
 
 利用 margin，留出右边自适应部分。
 
+## [伪元素与伪类](src/basic_style/pseudo_classAndElemrnt.md)
+
+## [居中对齐实现方式](src/basic_style/center_way.md)
+
 # 前端常用 Linux 命令
 [以上传测试环境为例](/src/Linux/lunix_usually.md)
 
