@@ -1,6 +1,7 @@
 # 图片懒加载实现方式
+
+## 原生JS实现
 * 原理：通过<img>标签中的 src 属性，进入可视区时发动加载请求，达到图片进入可视时，体图片才进行加自的效果
-*     参考：[原生js实现图片懒加载（lazyLoad）](https://zhuanlan.zhihu.com/p/55311726)
 
 * 使用API 
 *     1.获取可视区域高度：document.documentElement.clientHeight
@@ -73,9 +74,10 @@
 </html>
 ```
 
+>参考：参考：[原生js实现图片懒加载（lazyLoad）](https://zhuanlan.zhihu.com/p/55311726) 
 
 
-# React 框架中
+## React 框架中
 > 使用组件react-lazyload们直接完成加载
 
 * 安装react模块
@@ -112,3 +114,5 @@ import LazyLoad from 'react-lazyload';
   )}
 />
 ```
+
+> 参考：https://www.cnblogs.com/crazycode2/p/12641773.html 
