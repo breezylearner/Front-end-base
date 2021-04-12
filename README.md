@@ -75,4 +75,4 @@
 
 # React 相关
 
-## [react的生命周期函数]
+## [react的生命周期函数](src/react_comprehend/react_life_function.md)
