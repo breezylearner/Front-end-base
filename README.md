@@ -64,6 +64,8 @@
 
 ## [居中对齐实现方式](src/basic_style/center_way.md)
 
+## [盒模型相关](src/basic_style/box_problem.md)
+
 # 前端常用 Linux 命令
 [以上传测试环境为例](/src/Linux/lunix_usually.md)
 
@@ -71,3 +73,6 @@
 
 ### [客户端禁用cookie，session是否还能用？](src/knowledge/cookie_session.md)
 
+# React 相关
+
+## [react的生命周期函数]
