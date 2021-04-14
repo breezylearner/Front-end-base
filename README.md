@@ -48,6 +48,9 @@
 > 图片不一次性加载完，而是滚动到视窗时加载。pnterest使用图片加载方式
 > * 好处：减少资源浪费，当图片数目非常多时
 
+## [手写简易ajax](/src/basic_function/simple_ajax.js)
+> 利用 promise
+
 # 样式篇
 
 ## [三栏布局](https://codepen.io/breezylearner/pen/ZELpNXG)
@@ -71,7 +74,10 @@
 
 # 计算机网络
 
+## [跨域与同源策略](src/knowledge/cross-domain.md)
+
 ### [客户端禁用cookie，session是否还能用？](src/knowledge/cookie_session.md)
+
 
 # React 相关
 
