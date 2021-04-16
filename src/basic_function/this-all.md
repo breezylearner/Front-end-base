@@ -1,6 +1,7 @@
 # this 到底指向哪儿？
 
 ## 一般函数
+
 ### 调用只有一层，指向全局对象window,严格模式下执行undefined
 
 ### 多层调用，this指向上一层
@@ -46,4 +47,4 @@ sayHello();// 输出A
 
 * 参考
   1. [ES6箭头函数的this指向详解](https://zhuanlan.zhihu.com/p/57204184)
-  2. [彻底理解js中this的指向，不必硬背]()https://www.cnblogs.com/pssp/p/5216085.html
+  2. [彻底理解js中this的指向，不必硬背](https://www.cnblogs.com/pssp/p/5216085.html)
