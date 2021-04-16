@@ -43,3 +43,7 @@ var A = {
 var sayHello = A.sayHello();
 sayHello();// 输出A
 ```
+
+* 参考
+  1. [ES6箭头函数的this指向详解](https://zhuanlan.zhihu.com/p/57204184)
+  2. [彻底理解js中this的指向，不必硬背]()https://www.cnblogs.com/pssp/p/5216085.html
