@@ -3,6 +3,7 @@
 ## 1.Promise 结构
 * 封装好的构造函数，创建就会执行，无需另外调用。
 * 里面有两个函数：resolve和reject，分别在里面函数成功或者失败后调用
+
 > 其实就是别人已经造好的工具，直接拿来用就可以了
 ```
 var p =new Promise(function(resolve,reject){  //()表示里面的内容可以使用Promise的特性
@@ -10,6 +11,24 @@ var p =new Promise(function(resolve,reject){  //()表示里面的内容可以使
   resolve(xxxx) //当上面的console.log执行顺利执行后执行
   reject(yyyy)  //当console.log执行失败后执行
 })
+```
+* 如果需要向调用函数一样调用使用，需要在外面套上函数的外壳
+```
+function outPromise1(){
+  return new Promise(function(resolve,reject){
+    执行内容
+    resolve()
+  })
+}
+```
+> 箭头函数形式
+```
+function outPromise(){
+  return new Promise(()=>{
+    执行内容
+    resoleve()
+  })
+}
 ```
 
 ## 2.Promise 三种状态
@@ -50,20 +69,23 @@ var p =new Promise(function(resolve,reject){  //()表示里面的内容可以使
 
   <mark>注意：then方法是Promose的链式方法（Promise执行之后可以就会调用），会根据状态执行不同操作，而不是只有在fullfilled状态下才执行<mark>
 
-  ## 5.执行顺序：Promise then()回调异步性
-    Promise 是同步函数，创建就能执行，不同判断条件。Promise then()是异步函数，要根据前面Promise返回的结果执行。因此根据**事件循环机制**，promise then执行时间晚于同步时间
+## 5.执行顺序：Promise then()回调异步性
+    Promise 是同步函数，创建就能执行，不同判断条件。Promise then()是异步函数，要根据前面Promise返回的结果执行。因此根据**事件循环机制**，promise then执行时间晚于同步函数执行时间
   
   [例题：判断代码执行顺序](promise-order.js)
 
-  ## 6.Promise 中的异常
+## 6.Promise 中的异常
     Promise中的异常由第二个回调函数（Promise执行失败的回调，一般参数为err）处理。
     异常一旦得到处理，then返回的后续Promise对象将恢复正常，并会被Promise执行成功的回调函数处理。
 
     [例题：判断输出结果](promise-unusual.js)
 
 ## 7.Promise.resolve()
+  > Promise中，谁执行的速度快？
 * Promise.resolve(...)可以接收一个值或者是一个Promise对象作为参数。当参数是普通值时，它返回一个resolved状态的Promise对象，对象的值就是这个参数。
 * 当参数是一个Promise对象时，它直接返回这个Promise参数。
 * 通过构造函数创建的，全是新对象，不能直接调用里面的resolve,不能直接相等。
 
 ## 8.resolve vs reject
+  rejected 比 resolve 执行。resolve执行时，类似“拆箱”，有一个执行过程，而rejected没有。
+  因此，先执行reject，然后resolve再按顺序执行。
