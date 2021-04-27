@@ -91,3 +91,5 @@ function outPromise(){
 ## 8.resolve vs reject
   rejected 比 resolve 执行。resolve执行时，类似“拆箱”，有一个执行过程，而rejected没有。
   因此，先执行reject，然后resolve再按顺序执行。
+
+  [参考：八段代码彻底掌握Promise](https://segmentfault.com/a/1190000010345031?utm_source=sf-similar-article)
