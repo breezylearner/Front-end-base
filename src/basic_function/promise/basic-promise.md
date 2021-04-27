@@ -7,9 +7,11 @@
 > 其实就是别人已经造好的工具，直接拿来用就可以了
 ```
 var p =new Promise(function(resolve,reject){  //()表示里面的内容可以使用Promise的特性
-  console.log("具体执行函数")
-  resolve(xxxx) //当上面的console.log执行顺利执行后执行
-  reject(yyyy)  //当console.log执行失败后执行
+if(具体执行函数){
+  resolve(xxxx)}else{
+    reject(yyyy) 
+  }
+  
 })
 ```
 * 如果需要向调用函数一样调用使用，需要在外面套上函数的外壳
