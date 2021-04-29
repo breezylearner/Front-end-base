@@ -1,17 +1,15 @@
 /**
- *构造函数模式创建订阅发布模式
+ *构造函数模式创建订阅发布模式构造函数：用点为变量添加内容。点后满有内容、函数的是添加新内容，没有的就是引用添加的内容
  */
 
-// 构造函数：用点为变量添加内容。点后满有内容、函数的是添加新内容，没有的就是引用添加的内容
+// 以订阅售楼处消息作为模型
+var salesoffice = {}; //定义函数（售楼处）
 
-var salesoffice = {}; //定义售楼处
-
-salesoffice.clientList = []; //缓存列表，存放订阅者的回调函数。触发的操作
+salesoffice.clientList = []; //缓存列表，存放订阅者的回调函数。使用时触发的操作
 
 //创建listen，存放订阅的消息
 salesoffice.listen = function (key, fn) {
-  //key代表是第几项，fn是执行函数，用来存放
-  //增加订阅者
+  //key代表是第几项，fn是执行函数，用来存放订阅的内容
   if (!this.clientList[key]) {
     this.clientList[key] = [];
   }
