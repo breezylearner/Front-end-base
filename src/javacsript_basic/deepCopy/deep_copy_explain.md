@@ -1,9 +1,9 @@
-/**
+# 深拷贝设计思路
  * 思路：利用JS中，素有对象都从Object.prototype继承的特性，
  * （1）利用递归进行编写。
  * （2）typeof运算符用于判断对象的类型
- */
 
+```
 function deepCopy(obj) {
   //判断是否是简单数据类型，如：数字、字符串，本身没任何变化
   if (typeof obj == "object") {
@@ -19,3 +19,4 @@ function deepCopy(obj) {
   }
   return result;
 }
+```
