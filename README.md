@@ -14,7 +14,7 @@
 -     setTimeout(执行内容，等待时间)
 
 #### 节流函数
-* [代码](/src/basic_function/throttle/throttle_code.js)
+* [实现代码](/src/basic_function/throttle/throttle_code.js)
 * [解说](src/basic_function/throttle/throttle_code.js)
 
 
