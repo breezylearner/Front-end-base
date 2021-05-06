@@ -4,7 +4,7 @@
 
 # 功能篇
 
-## [防抖函数](/src/Debouncing.js)
+#### [防抖函数](/src/Debouncing.js)
 
 > 用处:防止频繁提交表单，让单次事件多次触发
 
@@ -13,16 +13,16 @@
 -     timer 具体是使用 setTimeout，执行是指向当前调用的函数，并使用里面的实参，然后回复初始值。
 -     setTimeout(执行内容，等待时间)
 
-## 节流函数
+#### 节流函数
 * [代码](/src/basic_function/throttle/throttle_code.js)
 * [解说](src/basic_function/throttle/throttle_code.js)
 
 
-## [深拷贝函数](/src/deep_copy.js)
+#### [深拷贝函数](/src/deep_copy.js)
 
 > 思路：利用 JS 原型的原理
 
-## [call apply bind 三兄弟]
+#### [call apply bind 三兄弟]
 
 > 三个函数都是用来改变原先指向指向，不过 bind 函数需要调用才能执行
 
@@ -39,16 +39,18 @@
   obj = obj ? Object(obj) : window;
 
 ```
-## [promise 实现红绿灯](/src/basic_function/promise_traffic_signal.js)
+
+#### Promise 基本使用
+###### [promise 实现红绿灯](/src/basic_function/promise_traffic_signal.js)
 > promise 的本质是 ES6 的语法糖，状态一旦转变，就绝不会改变
 * 根据promise的使用方法，将 setTimeout 用来设置延时，使用resolve状态，启动显示颜色的函数，达到“红绿灯”效果
 *  [完整效果显示](https://codepen.io/breezylearner/pen/vYgWgEq)
   
-## [图片懒加载](/src/basic_function/picture_lazyload/picture_lazyload_explain.md)
+##### [图片懒加载](/src/basic_function/picture_lazyload/picture_lazyload_explain.md)
 > 图片不一次性加载完，而是滚动到视窗时加载。pnterest使用图片加载方式
 > * 好处：减少资源浪费，当图片数目非常多时
 
-## [手写简易ajax](/src/basic_function/simple_ajax.js)
+#### [手写简易ajax](/src/basic_function/simple_ajax.js)
 > 利用 promise
 
 # 样式篇
