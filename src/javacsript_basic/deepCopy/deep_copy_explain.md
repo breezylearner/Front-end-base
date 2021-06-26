@@ -27,3 +27,6 @@ function deepCopy(obj) {
 ### 深拷贝相关函数
 1. JSON.stringify() ：将**对象**与**数组**转换为 JSON 字符串
 2. JSON.parse() ： 将**字符串**转换为 JSON
+
+
+> 参考内容：[深拷贝的终极探索（99%的人都不知道）](https://www.jqhtml.com/16976.html)
