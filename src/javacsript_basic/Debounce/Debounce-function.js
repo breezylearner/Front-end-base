@@ -1,5 +1,5 @@
 function debounce(fn, delay = 1000) {
-  let timer = null; //在闭包中 初始化
+  let timer = null;
   return function () {
     if (timer) {
       clearTimeout(timer);
