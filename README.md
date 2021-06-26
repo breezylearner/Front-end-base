@@ -72,3 +72,7 @@
 ## React 相关
 
 1. [react的生命周期函数](src/react_knowledge/react_life_function.md)
+
+## 硌脚的小石头
+> 那些不得不重视的小问题
+> [coding:return的位置](src/hinder/for_and_return.md)
