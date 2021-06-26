@@ -4,21 +4,21 @@
 
 ## 功能篇(JavaScript)
 
-#### [防抖函数]
+1. 防抖函数
   [实现代码](src/javacsript_basic/Debounce/Debounce-function.js)
   [解说](src/javacsript_basic/Debounce/Debounce-explain.md)
 
-#### 节流函数
+2. 节流函数
   [实现代码](/src/javacsript_basic/throttle/throttle_code.js)
   [解说](src/javacsript_basic/throttle/throttle_explain.md)
 
 
-#### 深拷贝函数
+3. 深拷贝函数
   [实现代码](src/javacsript_basic/deepCopy/deep_copy_function.js)
   [解说](src/javacsript_basic/deepCopy/deep_copy_explain.md)
 
 
-#### [call apply bind 三兄弟]
+4. [call apply bind 三兄弟]
 
 > 三个函数都是用来改变原先指向指向，不过 bind 函数需要调用才能执行
 * [call 代码](src/javacsript_basic/call-bind-apply/call.js)
@@ -28,8 +28,8 @@
     参考：[js 实现call和apply方法，超详细思路分析](https://www.cnblogs.com/echolun/p/12144344.html)
 
 
-#### Promise 基本使用
-###### [promise 实现红绿灯](/src/basic_function/promise_traffic_signal.js)
+5.  Promise 基本使用
+    [promise 实现红绿灯](/src/basic_function/promise_traffic_signal.js)
 > promise 的本质是 ES6 的语法糖，状态一旦转变，就绝不会改变
 * 根据promise的使用方法，将 setTimeout 用来设置延时，使用resolve状态，启动显示颜色的函数，达到“红绿灯”效果
 *  [完整效果显示](https://codepen.io/breezylearner/pen/vYgWgEq)
@@ -45,30 +45,30 @@
 
 ## 样式篇(CSS)
 ### 布局
-#### [float三栏布局](https://codepen.io/breezylearner/pen/ZELpNXG)
+1. [float三栏布局](https://codepen.io/breezylearner/pen/ZELpNXG)
 > 编写时可在色块里面添加文字，查看是否有覆盖,利用 padding 留出两边空间，将中间内容写在最前面，通过 float 进行填充。
 
-#### [float两栏布局](https://codepen.io/breezylearner/pen/BapLvrm?editors=1100)
+2. [float两栏布局](https://codepen.io/breezylearner/pen/BapLvrm?editors=1100)
 
 >利用 margin，留出右边自适应部分。
 
 
-#### [伪元素与伪类](src/basic_style/pseudo_classAndElemrnt.md)
+3. [伪元素与伪类](src/basic_style/pseudo_classAndElemrnt.md)
 
-#### [居中对齐实现方式](src/CSS_basic/center_way.md)
+4. [居中对齐实现方式](src/CSS_basic/center_way.md)
 
-#### [盒模型相关](src/CSS_basic/box_problem.md)
+5. [盒模型相关](src/CSS_basic/box_problem.md)
 
-## 前端常用 Linux 命令
-[以上传测试环境为例](/src/Linux/lunix_usually.md)
-
+## 前端常用 Linux/Git 命令
+1. [Linux:以上传测试环境为例](/src/Linux/lunix_usually.md)
+2. [Git常规操作](/src/git_about/git_base.md)
 ## 计算机网络
 
-#### [跨域与同源策略](src/knowledge/cross-domain.md)
+1. [跨域与同源策略](src/knowledge/cross-domain.md)
 
-#### [客户端禁用cookie，session是否还能用？](src/knowledge/cookie_session.md)
+2. [客户端禁用cookie，session是否还能用？](src/knowledge/cookie_session.md)
 
 
 ## React 相关
 
-#### [react的生命周期函数](src/react_knowledge/react_life_function.md)
+1. [react的生命周期函数](src/react_knowledge/react_life_function.md)
