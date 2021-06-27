@@ -45,7 +45,7 @@
   [实现代码](src/javacsript_basic/simple_ajax/simple_ajax_code.js)
   [解说](src/javacsript_basic/simple_ajax/simple_ajax_explain.md)
 
-  
+***  
 
 ## 样式篇(CSS)
 ### 布局
@@ -56,28 +56,35 @@
 
 >利用 margin，留出右边自适应部分。
 
-
 3. [伪元素与伪类](src/basic_style/pseudo_classAndElemrnt.md)
 
 4. [居中对齐实现方式](src/CSS_basic/center_way.md)
 
 5. [盒模型相关](src/CSS_basic/box_problem.md)
 
+***
+
 ## 前端常用 Linux/Git 命令
 1. [Linux:以上传测试环境为例](/src/Linux/lunix_usually.md)
 2. [Git常规操作](/src/git_about/git_base.md)
+
+***
+
 ## 计算机网络
 
 1. [跨域与同源策略](src/knowledge/cross-domain.md)
 
 2. [客户端禁用cookie，session是否还能用？](src/knowledge/cookie_session.md)
 
+***
 
 ## React 相关
 
 1. [react的生命周期函数](src/react_knowledge/react_life_function.md)
 
+***
+
 ## 硌脚的小石头
-> 那些不得不重视的小问题(我犯的错误)
+> 那些不得不重视的小问题
 
 1. [coding:return的位置](src/hinder/for_and_return.md)
