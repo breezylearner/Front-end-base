@@ -22,7 +22,7 @@
   [解说](src/javacsript_basic/deepCopy/deep_copy_explain.md)
 
 
-4. [call apply bind 三兄弟]
+4. call apply bind 三兄弟：改变指向三兄弟
 
 > 三个函数都是用来改变原先指向指向，不过 bind 函数需要调用才能执行
 * [call 代码](src/javacsript_basic/call-bind-apply/call.js)
