@@ -1,6 +1,5 @@
 # Front-end-base
-
-前端学习笔记
+> 前端学习笔记
 
 ## (JavaScript)
 ### 函数篇
