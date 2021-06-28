@@ -5,6 +5,7 @@
 ### 函数篇
 1. [for..in/of：遍历函数之间的区别](src/javacsript_basic/function_in_js.md/for_ofAndIn.md)
 2. [数组相关操作](src/javacsript_basic/function_in_js.md/array_operate.md)
+3. [this到底指向哪？](src/javacsript_basic/function_in_js.md/this-all.md)
 
 ### 功能篇
 1. 防抖函数
@@ -28,7 +29,7 @@
 * [bind 代码](src/javacsript_basic/call-bind-apply/bind.js)
 * [apply 代码](src/javacsript_basic/call-bind-apply/apply.js)
 * [解说](src/javacsript_basic/call-bind-apply/call-bind-allpy_explain.md)
-    参考：[js 实现call和apply方法，超详细思路分析](https://www.cnblogs.com/echolun/p/12144344.html)
+  参考：[js 实现call和apply方法，超详细思路分析](https://www.cnblogs.com/echolun/p/12144344.html)
 
 5.  Promise 基本使用
     [promise 实现红绿灯](/src/basic_function/promise_traffic_signal.js)
@@ -72,8 +73,8 @@
 ## 计算机网络
 
 1. [跨域与同源策略](src/knowledge/cross-domain.md)
-
 2. [客户端禁用cookie，session是否还能用？](src/knowledge/cookie_session.md)
+3. [计算机为什么不认为0.1加0.2等于0.3？](src/knowledge/0.3.md)
 
 ***
 
