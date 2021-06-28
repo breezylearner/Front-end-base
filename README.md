@@ -1,7 +1,7 @@
 # Front-end-base
 > 前端学习笔记
 
-## (JavaScript)
+## JavaScript
 ### 函数篇
 1. [for..in/of：遍历函数之间的区别](src/javacsript_basic/function_in_js.md/for_ofAndIn.md)
 2. [数组相关操作](src/javacsript_basic/function_in_js.md/array_operate.md)
